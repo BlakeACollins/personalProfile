@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto&display=swap');
+*{
+  max-width: 100vw;
+}
+/*****NAVBAR*****************************************************************************/
+/*LOGO COLORS
+*/
+:root{
+  --green: #04e03b;
+  --blue: #3695e3;
+  --grey: #6d6e71;
+}
+.logo{
+  width: 10.25rem;
+  height: 10.25rem;
+}
+.navbar{
+  border-bottom: 4px solid var(--blue);
+  opacity: 0.85;
+}
+.navbar-brand{
+
+}
+.nav-link{
+  color: #fff !important;
+  font-size: .9rem;
+  font-weight: 500;
+  letter-spacing: .20rem;
+  cursor: pointer;
+}
+nav ul li{
+  margin-right: .75rem;
+  margin-left: .75rem;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+}
+.navbar-nav li:hover{
+  border-bottom: 1px solid var(--green);
+}
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  color: #04e03b !important;
+  border-bottom: 1px solid var(--green);
+}
