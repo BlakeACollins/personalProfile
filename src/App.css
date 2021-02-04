@@ -71,7 +71,7 @@ nav ul li{
 .main-info h1{
   font-size: 64px;
   font-weight: bold;
-  color: pink;
+  color: #fff;
   text-transform: uppercase;
 }
 /*********************TYPED TEXT********************************/
@@ -110,7 +110,7 @@ nav ul li{
   }
 
   .typed-text{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--green);
@@ -122,6 +122,7 @@ nav ul li{
     border-radius: 10px;
     padding: 10px 12px 12px 12px;
     color: #fff;
-    margin: 2rem;
+    font-size: 12px;
+    margin: 2.5rem;
   }
 }
