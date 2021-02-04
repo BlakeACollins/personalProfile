@@ -8,6 +8,7 @@ function App() {
   return (
     <>
     <Particles
+    className='tsparticles-canvas'
       params={{
         particles:{
           number:{

@@ -51,7 +51,7 @@ nav ul li{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 95vh;
+  height: 100vh;
   opacity: 0.95;
 }
 
@@ -67,6 +67,7 @@ nav ul li{
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: 1;
 }
 .main-info h1{
   font-size: 64px;
@@ -86,9 +87,13 @@ nav ul li{
   border: 2px solid var(--blue);
   text-transform: uppercase;
   border-radius: 10px;
-  padding: 10px 12px 12px 12px;
-  color: #fff;
+  padding: 10px 10px 10px 10px;
   margin: 2rem;
+}
+.btn-main-offer a {
+  color: #000;
+  font-size: 18px;
+  z-index: 2;
 }
 /*****REACT PARTICLES**********************/
 .tsparticles-canvas-el{
@@ -115,14 +120,7 @@ nav ul li{
     text-transform: uppercase;
     color: var(--green);
   }
-
-  .btn-main-offer{
-    border: 2px solid var(--blue);
-    text-transform: uppercase;
-    border-radius: 10px;
-    padding: 10px 12px 12px 12px;
-    color: #fff;
-    font-size: 12px;
-    margin: 2.5rem;
+  .tsparticles-canvas{
+    display: none;
   }
 }
