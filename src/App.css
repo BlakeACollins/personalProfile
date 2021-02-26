@@ -23,18 +23,13 @@
   border-bottom: 2px solid var(--blue);
   opacity: 0.85;
 }
-/*.navbar-brand{
-  position: absolute;
-    width: 100px;
-    max-height: 100px;
-    padding: 0;
-    margin: 0;
-    top: 0;
-    z-index: 1;
-}*/
+.navbar-brand{
+  height: 75px;
+    z-index: 5;
+}
 .nav-link{
   color: #fff !important;
-  font-size: .8rem;
+  font-size: .7rem;
   font-weight: 500;
   letter-spacing: .20rem;
   cursor: pointer;
