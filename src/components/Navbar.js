@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../img/logo.png'
 
-
 export default class Navbar extends Component {
     state ={
         navbarOpen: false,
@@ -41,7 +40,6 @@ export default class Navbar extends Component {
         ]
        
     }
-
     navbarHandler = () => {
          this.state.navbarOpen?this.setState(
              {navbarOpen:false,css:"collapse navbar-collapse"})
@@ -54,7 +52,7 @@ export default class Navbar extends Component {
         return (
             <nav className='navbar sticky-top navbar-expand-lg navbar-dark bg-dark'>
                 <Link to='/' className='navbar-brand'>
-                   <img src={Logo} alt="My compnay logo" />
+                   {/*<img src={Logo} alt="My compnay logo" />*/}Logo here
                 </Link>
                 <button className='navbar-toggler' type='button' onClick={this.navbarHandler}>
                 <span className='navbar-toggler-icon'/>
