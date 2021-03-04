@@ -17,6 +17,7 @@ p{
 :root{
   --green: #04e03b;
   --blue: #3695e3;
+  --lightGrey: #f4f4f4; 
   --grey: #6d6e71;
 }
 /***********************NAVBAR*****************************************************************************/
@@ -29,7 +30,7 @@ p{
 }*/
 .navbar{
   border-bottom: 2px solid var(--blue);
-  opacity: 0.85;
+  opacity: 0.9;
 }
 .navbar-brand{
   
@@ -131,8 +132,23 @@ nav ul li{
   text-transform: uppercase;
   color: var(--blue);
 }
+/*******Services*******************************************************************/
+.services{
+  padding-bottom: 2rem;
+  background-color: var(--lightGrey);
+}
+.services > h1{
+  text-transform: uppercase;
+}
+.icon__color{
+  color: var(--blue);
+}
+.break{
+  visibility: hidden;
+}
+
 /*******MEDIA QUERIES***************************************************/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 568px) {
   /*Header*****************************/
   .main__info h1{
     font-size: 32px;
@@ -154,4 +170,14 @@ nav ul li{
   .profile__pic{
     width: 13.4rem;
   }
+  /*Services****************************/
+  .break{
+    background: darkgray;
+    max-width: 90vw;
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
 }
