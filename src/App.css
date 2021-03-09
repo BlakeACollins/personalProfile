@@ -18,7 +18,8 @@ p{
   --green: #04e03b;
   --blue: #3695e3;
   --lightGrey: #f4f4f4; 
-  --grey: #6d6e71;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
 }
 /***********************NAVBAR*****************************************************************************/
 
@@ -147,7 +148,68 @@ nav ul li{
   visibility: hidden;
 }
 
+/*******Experience*******************************************************************/
+.experience{
+  padding: 0.7rem;
+}
+.experience__wrapper{
+  position: relative;
+  padding: 3.125rem 0;
+  overflow: hidden;
+}
+.experience h1{
+  text-transform: uppercase;
+  color: var(--blue);
+}
+.experience__wrapper::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primary-grey);
+  z-index: 1;
+}
+.timeline__block{
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+.timeline__block__right{
+  float: right;
+}
+.timeline__block__left{
+  float: left;
+  direction: rtl;
+}
+.marker{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.3125rem solid var(--primary-dark-grey);
+  background:var(--blue);
+  margin-top: 0.625rem;
+  z-index: 3;
+}
+.timeline__content{
+  width: 95%;
+  padding: 0 0.9375rem;
+  color: var(--primary-dark-grey);
+  direction: ltr;
+}
+.timeline__content h3{
+  color: #000;
+}
+
+
+
+
+
 /*******MEDIA QUERIES***************************************************/
+
 @media only screen and (max-width: 568px) {
   /*Header*****************************/
   .main__info h1{
@@ -176,8 +238,26 @@ nav ul li{
     max-width: 90vw;
     visibility: visible;
   }
-}
-
-@media only screen and (max-width: 768px) {
+  /*Experience****************************/
+  .experience .container{
+    padding: 0;
+  }
+  .experience__wrapper::before{
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+  .timeline__block__right{
+    float: none;
+    width: 100vw;
+    padding-bottom: 0.8rem;
+  }
+  .timeline__block__left{
+    width: 100vw;
+    float: none;
+    direction: ltr;
+    padding-bottom: 0.8rem;
+  }
   
 }
+
+
