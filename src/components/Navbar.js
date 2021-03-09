@@ -28,8 +28,8 @@ export default class Navbar extends Component {
         },
         {
             id: 5,
-            path: '/Blog',
-            text: 'blog'
+            path: '/Experience',
+            text: 'experience'
         },
         {
             id: 6,
