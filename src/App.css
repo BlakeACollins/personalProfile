@@ -5,7 +5,9 @@
 }
 
 h1,
-h2{
+h2,
+h3,
+h4{
   font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
 }
 p{
@@ -20,6 +22,7 @@ p{
   --lightGrey: #f4f4f4; 
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
+  --icon-blue: #078af6;
 }
 /***********************NAVBAR*****************************************************************************/
 
@@ -166,7 +169,7 @@ nav ul li{
   content: "";
   top: 0;
   left: 50%;
-  margin-left: -0.625rem;
+  margin-left: -0.0625rem;
   width: 0.125rem;
   height: 100%;
   background: var(--primary-grey);
@@ -204,9 +207,39 @@ nav ul li{
   color: #000;
 }
 
+/*******Projects*******************************************************************/
+.project__wrapper{
+  background: var(--lightGrey);
+  padding: 3rem 0;
+}
+.project__image{
+  max-width: 15rem;
+  height: 8rem;
+  padding: 0 0.5rem;
+}
+.project__image__box{
+  position: relative;
+  margin: 1rem;
+}
+.overflow{
+  position: absolute;
+}
 
+.project__icon{
+  position: absolute;
+  opacity: 0;
+  margin-left: -7.45rem;
+  margin-top: 3.6rem;
+  color: var(--icon-blue);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
 
-
+.project__image__box:hover .project__icon{
+  opacity: 90%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
 
 /*******MEDIA QUERIES***************************************************/
 
@@ -239,8 +272,8 @@ nav ul li{
     visibility: visible;
   }
   /*Experience****************************/
-  .experience .container{
-    padding: 0;
+  .experience{
+    padding: 0.7rem;
   }
   .experience__wrapper::before{
     left: 0.5rem;
