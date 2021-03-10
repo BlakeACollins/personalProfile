@@ -150,9 +150,46 @@ nav ul li{
 .break{
   visibility: hidden;
 }
+/*******Projects*******************************************************************/
+.project__wrapper{
+  padding: 3rem 0;
+}
+.project__wrapper h1{
+  color: var(--blue);
+}
+.project__image{
+  max-width: 15rem;
+  height: 9rem;
+  padding: 0 0.5rem;
+}
+.project__image__box{
+  position: relative;
+  margin: 1rem;
+}
+.overflow{
+  position: absolute;
+}
+
+.project__icon{
+  position: absolute;
+  opacity: 0;
+  margin-left: -7.45rem;
+  margin-top: 3.6rem;
+  color: var(--icon-blue);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.project__image__box:hover .project__icon{
+  opacity: 90%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
 
 /*******Experience*******************************************************************/
 .experience{
+  background-color: var(--lightGrey);
   padding: 0.7rem;
 }
 .experience__wrapper{
@@ -162,7 +199,6 @@ nav ul li{
 }
 .experience h1{
   text-transform: uppercase;
-  color: var(--blue);
 }
 .experience__wrapper::before{
   position: absolute;
@@ -206,41 +242,17 @@ nav ul li{
 .timeline__content h3{
   color: #000;
 }
+/*******Contact*******************************************************************/
+.contact{
+  padding: 3rem;
+}
+.contact h1{
+  color: var(--blue);
+  text-transform: uppercase;
+}
+.contact p{
 
-/*******Projects*******************************************************************/
-.project__wrapper{
-  background: var(--lightGrey);
-  padding: 3rem 0;
 }
-.project__image{
-  max-width: 15rem;
-  height: 9rem;
-  padding: 0 0.5rem;
-}
-.project__image__box{
-  position: relative;
-  margin: 1rem;
-}
-.overflow{
-  position: absolute;
-}
-
-.project__icon{
-  position: absolute;
-  opacity: 0;
-  margin-left: -7.45rem;
-  margin-top: 3.6rem;
-  color: var(--icon-blue);
-  font-size: 2.4rem;
-  font-weight: 700;
-}
-
-.project__image__box:hover .project__icon{
-  opacity: 90%;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-}
-
 /*******MEDIA QUERIES***************************************************/
 
 @media only screen and (max-width: 568px) {
