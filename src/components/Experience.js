@@ -3,7 +3,7 @@ import React from 'react'
 function Experience() {
     return (
         <div className='experience'>
-            <div className='d-flex justify-content-center my-5'>
+            <div className='d-flex justify-content-center py-5'>
                 <h1>Experience</h1>
             </div>
             <div className='container experience__wrapper'>

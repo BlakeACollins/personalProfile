@@ -23,13 +23,13 @@ export default class Navbar extends Component {
         },
         {
             id:4,
-            path:'/Projects',
-            text:'projects'
+            path: '/Projects',
+            text: 'projects'
         },
         {
             id: 5,
-            path: '/Experience',
-            text: 'experience'
+            path:'/Experience',
+            text:'experience'
         },
         {
             id: 6,

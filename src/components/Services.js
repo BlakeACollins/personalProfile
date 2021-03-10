@@ -6,8 +6,9 @@ import { faSellsy } from '@fortawesome/free-brands-svg-icons'
 const Services = () => {
     return (
     <div className='services'>
+        <div className='py-5'>
         <h1 className='text-center pt-5 pb-5'>My Services</h1>
-            <div className='py-5'>
+            
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-4 col-sm-6'>
