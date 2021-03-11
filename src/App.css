@@ -242,17 +242,51 @@ nav ul li{
 .timeline__content h3{
   color: #000;
 }
-/*******Contact*******************************************************************/
+/************Contact*******************************************************************/
 .contact{
-  padding: 3rem;
+  background: var(--primary-grey);
+  padding: 2.5rem;
 }
 .contact h1{
-  color: var(--blue);
   text-transform: uppercase;
 }
 .contact p{
-
+  color: #000;
 }
+.contact input, .contact textarea{
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-dark-grey);
+  border-radius: 0;
+  color: #000;
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+}
+.contact .container{
+  padding: 3rem 0;
+}
+.contact input:focus,
+.contact textarea:focus{
+  background: transparent;
+  color: #000;
+}
+.contact textarea{
+ height: 12.465rem !important;
+}
+.contact__btn{
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+  border: 0.125rem solid var(--primary-dark-grey);
+}
+.contact__btn:hover{
+  background: var(--blue);
+}
+
 /*******MEDIA QUERIES***************************************************/
 
 @media only screen and (max-width: 568px) {
