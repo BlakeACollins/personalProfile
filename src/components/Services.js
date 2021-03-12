@@ -23,7 +23,7 @@ const Services = () => {
                         {/* - */}
                         <div className='col-md-4 col-sm-6'>
                             <FontAwesomeIcon icon={faCode}C size='2x' className='icon__color mt-2'/>
-                                    <h3 className='pt-2 pb-2'>Full Stack Web Development</h3>
+                                    <h3 className='pt-2 pb-2'>JavaScript Full Stack Development</h3>
                                             <p className='lead'>Technologies Used:</p>
                                                 <p>HTML, CSS, Bootstrap, JavaScript, jQuery, JSON, React, React Hooks, Context API, Redux, GraphQL, Gatsby, Sanity, and Firebase</p>
                                                     <p className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
