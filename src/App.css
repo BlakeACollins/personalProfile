@@ -17,12 +17,14 @@ p{
 /*LOGO COLORS
 */
 :root{
+  --sucess-green: green;
   --green: #04e03b;
   --blue: #3695e3;
   --lightGrey: #f4f4f4; 
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
   --icon-blue: #078af6;
+  --error-red: red;
 }
 /***********************NAVBAR*****************************************************************************/
 
@@ -286,7 +288,16 @@ nav ul li{
 .contact__btn:hover{
   background: var(--blue);
 }
+.error__message {
+  color: var(--error-red);
+  
+  text-align: center;
+}
 
+.success__message {
+  font-weight: 700;
+  color: var(--sucess-green);
+}
 /*******MEDIA QUERIES***************************************************/
 
 @media only screen and (max-width: 568px) {
