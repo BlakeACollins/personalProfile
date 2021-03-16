@@ -196,12 +196,18 @@ nav ul li{
 }
 .experience__wrapper{
   position: relative;
-  padding: 3.125rem 0;
+  padding: 3rem 0;
   overflow: hidden;
 }
 .experience h1{
   text-transform: uppercase;
 }
+.experience li{
+  list-style: none;
+  padding: 0;
+  margin: .25rem;
+}
+
 .experience__wrapper::before{
   position: absolute;
   content: "";
@@ -238,11 +244,11 @@ nav ul li{
 .timeline__content{
   width: 95%;
   padding: 0 0.9375rem;
-  color: var(--primary-dark-grey);
+  color: #000;
   direction: ltr;
 }
-.timeline__content h3{
-  color: #000;
+.experience h4{
+  color: var(--primary-dark-grey);
 }
 /************Contact*******************************************************************/
 .contact{
@@ -298,6 +304,36 @@ nav ul li{
   font-weight: 700;
   color: var(--sucess-green);
 }
+/************Footer*******************************************************************/
+.footer{
+  background: var(--lightGrey);
+}
+.footer .container{
+  padding: .5rem;
+}
+.footer img{
+  width: 8rem !important;
+  height: 8rem !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.footer h5{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
+}
+.footer p{
+  margin: 0;
+  padding: 0;
+}
+a{
+  font-size: 1.6rem;
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.6s;
+}
+a:hover{
+  opacity: 0.5;
+}
+
 /*******MEDIA QUERIES***************************************************/
 
 @media only screen and (max-width: 568px) {
@@ -347,7 +383,28 @@ nav ul li{
     direction: ltr;
     padding-bottom: 0.8rem;
   }
+  /*Footer*****************************/
+  .footer .container{
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .footer img{
+    width: 10rem !important;
+    height: 10rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .footer a{
+      font-size: .9rem !important;
+  }
   
 }
-
+@media only screen and (max-width: 768px){
+    .footer a {
+      font-size: 1.2rem;
+      margin-left: .4rem;
+      padding-right: .8rem !important;
+    }
+}
 
