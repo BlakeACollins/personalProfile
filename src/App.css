@@ -187,8 +187,22 @@ nav ul li{
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-
-
+.project__image__popup{
+  width: 28rem;
+  padding: 0 0.5rem;
+}
+.hyper__link{
+  cursor: pointer;
+  text-decoration: none !important;
+  color: var(--blue);
+  font-size: 1.2rem;
+  display: inline-block;
+}
+.hyper__link:hover{
+  cursor: pointer;
+  text-decoration: none !important;
+  color: var(--green);
+}
 /*******Experience*******************************************************************/
 .experience{
   background-color: var(--lightGrey);
@@ -383,6 +397,10 @@ a:hover{
     direction: ltr;
     padding-bottom: 0.8rem;
   }
+  /*Projects***************************/
+  .project__image__popup{
+    width: 100%; 
+  }
   /*Footer*****************************/
   .footer .container{
     display: flex !important;
@@ -399,7 +417,9 @@ a:hover{
       font-size: .9rem !important;
   }
   
+  
 }
+
 @media only screen and (max-width: 768px){
     .footer a {
       font-size: 1.2rem;
@@ -407,4 +427,15 @@ a:hover{
       padding-right: .8rem !important;
     }
 }
-
+/**Media QUERIES for projects on landscape mode*/
+@media(max-height: 500px){
+  .popupbox__wrapper{
+    max-height: 100vh;
+  }
+  .project__image{
+    max-width: 80%;
+  }
+  .project__image__popup{
+    width: 12%; 
+  }
+}
