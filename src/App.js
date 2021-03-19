@@ -9,6 +9,7 @@ import Services from './components/Services'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -37,12 +38,13 @@ function App() {
     
     />
       <Navbar />
-      <Header />
-      <About /> 
+      <Header to='/' />
+      <About path='/about' /> 
       <Services />
       <Projects />
       <Experience />
       <Contact />
+      <Footer />
     </Router>
     </>
   );

@@ -3,6 +3,24 @@
 *{
   max-width: 100vw;
 }
+/* Side Scroll Bar-------------------------------------------------------------------------*/
+::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+    border-radius: 10px;
+    background-color: var(--primary-dark-grey);
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: var(--primary-grey);
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: var(--blue);
+    background-image: -webkit-linear-gradient(90deg,transparent rgba(0, 0, 0, 0.4) 50%, transparent, transparent)
+}
 
 h1,
 h2,
@@ -326,7 +344,7 @@ nav ul li{
   padding: .5rem;
 }
 .footer img{
-  width: 8rem !important;
+  width: 7.5rem !important;
   height: 8rem !important;
   margin: 0 !important;
   padding: 0 !important;
