@@ -35,8 +35,8 @@ p{
 /*LOGO COLORS
 */
 :root{
-  --sucess-green: green;
-  --green: #04e03b;
+  --sucess-green: #04f841;
+  --green: #04f841;
   --blue: #3695e3;
   --lightGrey: #f4f4f4; 
   --primary-grey: #ccd1d9;
@@ -118,6 +118,7 @@ nav ul li{
   font-weight: bold;
   text-transform: uppercase;
   color: var(--green);
+  
 }
 /********HEADER BUTTON********************/
 .btn__main__offer{
@@ -378,13 +379,13 @@ a:hover{
   }
 
   .typed__text{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--green);
   }
   .tsparticles-canvas{
-    display: none;
+    display: none !important;
   }
   /*About Me*****************************/
   .profile__pic{
@@ -439,6 +440,7 @@ a:hover{
 }
 
 @media only screen and (max-width: 768px){
+  
     .footer a {
       font-size: 1.2rem;
       margin-left: .4rem;
