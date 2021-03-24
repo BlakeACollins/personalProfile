@@ -248,7 +248,7 @@ const Projects = () => {
     
 
     return (
-        <div className='project__wrapper'>
+        <div id='projects' className='project__wrapper'>
             <div className='container'>
                 <h1 className='text-uppercase text-center py-5' >projects</h1>
                     <div className='image__box__wrapper row justify-content-center'>

@@ -13,11 +13,12 @@ function Footer() {
                         <div>
                             <img src={Logo} alt='Compnay Logo'></img>
                         </div>
+                        
                     </div>
                     <div className='col-md-3 col-sm-6'>
                     <figure>
                             <blockquote>
-                                <h5 className=''>Your website should be a marketing asset, not an engineering nightmare.</h5>
+                                <h5 className='text-center p-2'>Your website should be a marketing asset, not an engineering nightmare.</h5>
                             </blockquote>
                         </figure>
                     </div>
@@ -30,6 +31,7 @@ function Footer() {
                         </div>
                         <div>
                             <p>evergreenDev@gmail.com</p>
+                            
                         </div>
                     </div>
                     <div className='col-md-3 col-sm-6'>
@@ -42,6 +44,7 @@ function Footer() {
                         <a className='p-3' href='https://www.facebook.com/blake.collins.3958'>
                         <FontAwesomeIcon icon={faFacebookF} style={{ color: 'black'}} />
                         </a>
+                        <p className='text-capitalize pt-2'>all rights reserved &copy;{new Date().getFullYear().toString()}</p>
                     </div>
                 </div>
             </div>
