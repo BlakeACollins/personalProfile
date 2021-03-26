@@ -6,10 +6,13 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 
 const Navbar = () => {
-
+  const click = (e) =>{
+    e.preventDefault();
+    console.log("Click...")
+  }
  
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <nav className="navbar navbar-expand-sm navbar-light bg-dark fixed-top">
       <div className="container">
 
         <h5 style={{ color: '#04e03b' }}>Evergreen</h5><h5 style={{ color: '#3695e3' }}>Development</h5>
@@ -17,14 +20,14 @@ const Navbar = () => {
         <button className='navbar-toggler' 
                 type='button' 
                  data-toggle="collapse" 
-                 data-target="#navbarSupportedContent" 
-                 aria-controls="navbarSupportedContent" 
+                 data-target="navbarCollapse" 
+                 aria-controls="navbarCollapse" 
                  aria-expanded="false" 
                  aria-label="Toggle navigation">
-          <span className='navbar-toggler-icon'/>
+              <FontAwesomeIcon onClick={click} icon={faBars} style={{ color: "#fff" }} />
         </button>
 
-        <div className="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse text-uppercase" id="navbarCollapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <Link smooth={true} to="home" className="nav-link" href='#'>Home</Link>
