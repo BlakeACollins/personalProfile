@@ -55,6 +55,7 @@ p{
 .navbar{
   border-bottom: 2px solid var(--blue);
   opacity: 0.9;
+  z-index: 100 !important;
 }
 .navbar-brand{
   
@@ -207,7 +208,7 @@ nav ul li{
   cursor: pointer;
 }
 .project__image__popup{
-  width: 28rem;
+  width: 27rem;
   padding: 0 0.5rem;
 }
 .hyper__link{
