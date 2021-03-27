@@ -1,0 +1,22 @@
+.photo__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile__pic{
+    width: 18rem;
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+    padding: 0.3rem;
+  }
+  .about__heading{
+    text-transform: uppercase;
+    color: var(--blue);
+  }
+/*MEDIA QUERIES**********************************/
+@media only screen and (max-width: 568px){
+  .profile__pic{
+    width: 13.4rem;
+  }
+}
+

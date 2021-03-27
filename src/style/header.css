@@ -1,0 +1,65 @@
+.header__wraper{
+    position: relative;
+    background-image: url(../img/wood-desk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    opacity: 0.9;
+  }
+  
+  .main__info{
+    
+    display: flex;
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+  }
+  .main__info > h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  /*********************TYPED TEXT********************************/
+  .typed__text{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--green);
+    
+  }
+  /*****REACT PARTICLES**********************/
+  .tsparticles-canvas-el{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+  }
+/*******MEDIA QUERIES***********************/
+@media only screen and (max-width: 568px) {
+    /*Header*****************************/
+    .main__info h1{
+      font-size: 32px;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  
+    .typed__text{
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: var(--green);
+    }
+    .tsparticles-canvas{
+      display: none !important;
+    }
+}

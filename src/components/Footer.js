@@ -3,7 +3,7 @@ import Logo from '../img/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  } from '@fortawesome/free-solid-svg-icons'
 import { faGithubAlt, faLinkedinIn,faFacebookF } from '@fortawesome/free-brands-svg-icons'
-
+import '../style/footer.css'
 function Footer() {
     return (
         <div className='footer'>
@@ -44,7 +44,7 @@ function Footer() {
                         <a className='p-3' href='https://www.facebook.com/blake.collins.3958'>
                         <FontAwesomeIcon icon={faFacebookF} style={{ color: 'black'}} />
                         </a>
-                        <p className='text-capitalize pt-2'>all rights reserved &copy;{new Date().getFullYear().toString()}</p>
+                        <p className='text-capitalize pt-1'>all rights reserved &copy;{new Date().getFullYear().toString()}</p>
                     </div>
                 </div>
             </div>
