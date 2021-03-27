@@ -1,53 +1,31 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import './App.css';
-import { BrowserRouter as Router, } from 'react-router-dom';
-import Particles from 'react-particles-js'
-import Navbar from './components/Navbar'
-import Header from './components/Header'
-import About from './components/About'
-import Services from './components/Services'
-import Experience from './components/Experience'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Menu from './components/Menu'
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Services from './pages/Services'
+import Projects from './pages/Projects'
+import Experience from './pages/Experience'
+import Contact from './pages/Contact'
+
 
 function App() {
   return (
     <>
-    <Router>
-    <Particles
-    className='tsparticles-canvas'
-      params={{
-        particles:{
-          number:{
-            value: 30,
-            density:{
-              enable: true,
-              value_area: 900
-            }
-          },
-          shape:{
-            type: "circle",
-            stroke:{
-              width: 6,
-              color: "#04e03b"
-            }
-          }
-        }
-      }}
-    
-    />
-      <Navbar />
-      <Header to='/' />
-      <About path='/about' /> 
-      <Services />
-      <Projects />
-      <Experience />
-      <Contact />
-      <Footer />
-    </Router>
+      <Router>
+        <Menu/>
+        
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/services' component={Services} />
+            <Route exact path='/projects' component={Projects} />
+            <Route exact path='/experience' component={Experience} />
+            <Route exact path='/contact' component={Contact} />
+          </Switch>
+        
+      </Router>
     </>
   );
 }
-
 export default App;
