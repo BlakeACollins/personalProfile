@@ -6,7 +6,9 @@ import '../style/header.css'
 const Header = () => {
     return (
         <div id='home' className='header__wraper'>
-            <img className='logo' src={Logo} alt=''/>
+            <img className='logo' src={Logo} alt='Evergreen Development Logo'
+            width= '125' height= '115' 
+            />
             {/*<h4>EvergreenDevelopment</h4>*/}
             <div className='main__info'>
                 <h1>Web Design and Development</h1>
