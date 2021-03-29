@@ -13,8 +13,8 @@ const MenuLabel = styled.label`
   top: 1rem;
   right: 1rem;
   border-radius: 50%;
-  height: 6rem;
-  width: 6rem;
+  height: 5rem;
+  width: 5rem;
   cursor: pointer;
   z-index: 1000;
   box-shadow: 0 1rem 3rem rgba(182, 237, 200, 0.3);
@@ -23,8 +23,8 @@ const MenuLabel = styled.label`
 
 const NavBackground = styled.div`
   position: fixed;
-  top: 6.5rem;
-  right: 6.5rem;
+  top: 1rem;
+  right: 1rem;
   background-image: radial-gradient(
     ${COLORS.primaryDark},
     ${COLORS.primaryLight}
@@ -43,7 +43,7 @@ const Icon = styled.span`
   width: 3rem;
   height: 2px;
   display: inline-block;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   transition: all 0.3s;
   &::before,
   &::after {
