@@ -13,6 +13,9 @@
     text-transform: uppercase;
     color: var(--blue);
   }
+  .about__me{
+    text-indent: 25px;
+  }
 /*MEDIA QUERIES**********************************/
 @media only screen and (max-width: 568px){
   .profile__pic{
