@@ -6,10 +6,26 @@ function Experience() {
     return (
         <>
         <div className='experience'>
-            <div className='d-flex justify-content-center py-5'>
-                <h1>Experience</h1>
+            <div className='text-uppercase text-center py-4'>
+                <h1 className='page__title'>Experience</h1>
             </div>
             <div className='container experience__wrapper'>
+                <div className='timeline__block timeline__block__left'>
+                        <div className='marker'></div>
+                            <div className='timeline__content'>
+                                <h3>Web Designer | Web Application Developer, Evergreen Development</h3>
+                                <h4>Self Employed</h4>
+                                <ul>
+                                    <li>Creating wireframes and prototypes with Figma.</li>
+                                    <li>Responsive UI design with CSS and Bootstrap</li>
+                                    <li>Custom CSS styling written with BEM-IT naming convention.</li>
+                                    <li>Checking website score and making SEO improvements.</li>
+                                    <li>Creating websites with semantic markup.</li>
+                                    <li>Utilize HTML, CSS, React, Stripe.js, and Firebase for E-commerce sites.</li>
+                                </ul>
+                            </div>
+                    </div>
+                {/* - */}
                 <div className='timeline__block timeline__block__right'>
                     <div className='marker'></div>
                         <div className='timeline__content'>
