@@ -2,13 +2,14 @@
   background-color: var(--lightGrey);
   padding: 0.7rem;
 }
+
 .experience__wrapper{
   position: relative;
   padding: 3rem 0;
   overflow: hidden;
 }
 .experience h1{
-  text-transform: uppercase;
+  color: var(--blue);
 }
 .experience li{
   list-style: none;
@@ -62,6 +63,9 @@
 @media only screen and (max-width: 568px){
 .experience{
   padding: 0.7rem;
+}
+.page__title{
+  margin-top: 4rem !important;
 }
 .experience__wrapper::before{
   left: 0.5rem;

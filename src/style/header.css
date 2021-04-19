@@ -9,7 +9,7 @@
   }
   .header__wraper .logo{
     position: fixed; 
-    left: 1rem;
+    left: 0.8rem;
     top: 0;
     z-index: 100;
     margin: 0;
@@ -62,6 +62,7 @@
     .header__wraper .logo{
       height: 175px;
       width: 175px;
+      top: 0 !important;
     }
   
     .typed__text{
