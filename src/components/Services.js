@@ -6,10 +6,9 @@ import '../style/services.css'
 
 const Services = () => {
     return( 
-        <>
     <div className='services'>
         <div className='py-5'>
-        <h1 className='text-uppercase text-center py-4'>services</h1>
+        <h1 className='text-uppercase text-center py-4 pt-2'>services</h1>
             
                 <div className='container'>
                     <div className='row'>
@@ -45,7 +44,6 @@ const Services = () => {
             </div>
         </div>
         
-        </>
     )
 }
 
