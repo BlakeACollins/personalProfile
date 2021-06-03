@@ -1,5 +1,5 @@
-# Personal Site and Services for Evergreen Development
+# Personal Site
 
 I am currently making version 2 of my personal website. Made with React, CSS, and Bootstrap. 
 
-# Still in production
+# Still in development
