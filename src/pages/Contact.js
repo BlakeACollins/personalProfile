@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Footer from '../components/Footer'
+import React, { useState } from "react";  
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 import '../style/contact.css'
@@ -36,11 +35,10 @@ const Contact = () => {
   }
 
   return (
-    <>
     <div id='contact' className="contact">
       <div className="text-center">
-        <h1>contact me</h1>
-        <p>Please fill out the form and describe your project needs and I'll contact you as soon as possible.</p>
+        <h2 className='text-uppercase text-center pt-2 pb-3'>contact me</h2>
+        <p>Please fill out the form and describe your project needs.<br/> I'll contact you as soon as possible! Thank you!</p>
         <span className="success__message">{successMessage}</span>
       </div>
       <div className="container">
@@ -151,10 +149,8 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      
     </div>
-    <Footer />
-    </>
+    
   )
   
 }
