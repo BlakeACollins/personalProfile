@@ -1,0 +1,13 @@
+.tech__heading{
+    text-transform: uppercase;
+    color: var(--blue);
+    text-indent: 10px;
+}
+.tech__icons{
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    
+}
+.tech__icons:hover{
+    transform: scale(1.2);
+}
