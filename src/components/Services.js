@@ -15,31 +15,23 @@ const Services = () => {
                         <div className='col-md-4 col-sm-6'>
                                 <FontAwesomeIcon icon={faPencilRuler} size='2x' className='icon__color'/>
                                     <h3 className='pt-2 pb-2'>Web Design</h3>
-                                            <p className='lead'>Technologies Used:</p>
-                                                <p>Balsamiq and Figma</p>
-                                                    <p className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                    <p className='mb-4'>I can help with the first steps of creating your website with a wireframe or mock-up design. I can make a low-fidelity or high-fidelity mock-up that is professional and responsive</p>
                             <hr className='break' />
                             </div>
                         
                         {/* - */}
                         <div className='col-md-4 col-sm-6'>
                             <FontAwesomeIcon icon={faCode}C size='2x' className='icon__color mt-2'/>
-                                    <h3 className='pt-2 pb-2'>UI and Front End Development</h3>
-                                            <p className='lead'>Technologies Used:</p>
-                                                <p>HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, React, Redux, Gatsby, Next, Stripe.js, Shopify, Webflow, Firebase, and SEO improvements</p>
-                                                    <p className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <h3 className='pt-2 pb-2'>Front End Development</h3>
+                                                    <p className='mb-4'>I will bring your website to life with the latest technologies! I can make a simple landing page, static or dynamic site, blog, or e-commerce site. I focus on mobile responsiveness, security, SEO, and accessibility.</p>
                             <hr className='break' />
                             </div>
                             <div className='col-md-4 col-sm-6'>
                             <FontAwesomeIcon icon={faMobileAlt} size='2x' className='icon__color'/>
-                                    <h3 className='pt-2 pb-2'>Mobile Web Specalist</h3>
-                                            <p className='lead'>Technologies Used:</p>
-                                                <p>HTML, CSS, Sass, Bootstrap, Tailwind CSS, JavaScript, React, and Webflow</p>
-                                                    <p className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <hr className='break' />
+                                    <h3 className='pt-2 pb-2'>Mobile Web Specialist</h3>
+                                                    <p className='mb-4'>Having a responsive web site is essentail! Half of all web traffic is from a mobile device! Having a responsive site can also affect your Google ranking! I can make sure your site is ready for the mobile world!</p>
                     </div>
                     </div>
-                    
                 </div>
             </div>
         </div>

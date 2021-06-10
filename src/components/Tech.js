@@ -8,16 +8,26 @@ import redux from '../img/redux.svg'
 import next from '../img/Next.png'
 import firebase from '../img/Firebase.png'
 import Webflow from '../img/Webflow.svg'
+import Figma from '../img/Figma.png'
 import '../style/techUsed.css'
 
 
 function Tech() {
     return (
         <div className='flex justify-space-around'>
-                    <h2 className='about__heading pb-3'>
-                        Technologies Used
+                    <h2 className='tech__heading pb-3 py-3'>
+                        Technologies
                     </h2>
                 <div>
+                <img className='tech__icons'
+                    height={70}
+                    width={75}
+                    src={Webflow} alt='Webflow' />
+                    {/* - */}
+                    <img className='tech__icons'
+                    height={70}
+                    width={75}
+                    src={Figma} alt='Figma' />
                     <img className='tech__icons' 
                     height={80}
                     width={75}
@@ -27,6 +37,11 @@ function Tech() {
                     height={80}
                     width={65}
                     src={CSS} alt='CSS3' />
+                    {/* - */}
+                    <img className='tech__icons'
+                    height={80}
+                    width={65}
+                    src={JS} alt='JavaScript' />
                     {/* - */}
                     <img className='tech__icons'
                     height={75}
@@ -39,13 +54,8 @@ function Tech() {
                     src={Tailwind} alt='Tailwind CSS' />
                     {/* - */}
                     <img className='tech__icons'
-                    height={75}
-                    width={65}
-                    src={JS} alt='JavaScript' />
-                    {/* - */}
-                    <img className='tech__icons'
                     height={85}
-                    width={85}
+                    width={95}
                     src={react} alt='React' />
                     {/* - */}
                     <img className='tech__icons'
@@ -63,10 +73,6 @@ function Tech() {
                     width={65}
                     src={firebase} alt='Google Firebase' />
                     {/* - */}
-                    <img className='tech__icons'
-                    height={70}
-                    width={75}
-                    src={Webflow} alt='Webflow' />
                 </div>
             </div>
     )
