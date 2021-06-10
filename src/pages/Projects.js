@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import 'react-popupbox/dist/react-popupbox.css'
+import MiniProjects from '../components/MiniProjects'
+import Contact from '../pages/Contact'
 import '../style/projects.css'
 
 
@@ -253,7 +255,7 @@ const Projects = () => {
         <>
         <div id='projects' className='project__wrapper'>
             <div className='container'>
-                <h1 className='text-uppercase text-center py-4' >projects</h1>
+                <h1 className='text-uppercase text-center py-5' >projects</h1>
                     <div className='image__box__wrapper row justify-content-center'>
                         <div className='project__image__box' onClick={popupboxAmazon}>
                             <h5 className='text-center mb-3'>Amazon Clone</h5>
@@ -263,21 +265,21 @@ const Projects = () => {
                         </div>
                     {/* - */}
                         <div className='project__image__box' onClick={popupboxNetflix}>
-                            <h5 className='text-center mb-3'>Netflix Clone</h5>
+                            <h5 className='text-center mb-3'>Facebook Clone</h5>
                             <img className='project__image' src={Netflix} alt=''/>
                             <div className='overflow'></div>
                             <FontAwesomeIcon className='project__icon' icon={faSearchPlus} />
                         </div>
                     {/* - */}
                         <div className='project__image__box' onClick={popupboxGitHub}>
-                            <h5 className='text-center mb-3'>GitHub Profile Finder</h5>
+                            <h5 className='text-center mb-3'>Whatsapp Clone</h5>
                             <img className='project__image' src={GitHub} alt=''/>
                             <div className='overflow'></div>
                             <FontAwesomeIcon className='project__icon' icon={faSearchPlus} />
                         </div>
                     {/* - */}
                         <div className='project__image__box' onClick={popupboxMealFinder}>
-                            <h5 className='text-center mb-3'>Meal Finder</h5>
+                            <h5 className='text-center mb-3'>Hulu UI Clone</h5>
                             <img className='project__image' src={MealFinder} alt=''/>
                             <div className='overflow'></div>
                             <FontAwesomeIcon className='project__icon' icon={faSearchPlus} />
@@ -291,28 +293,28 @@ const Projects = () => {
             <div className='container mt-3'>
                     <div className='image__box__wrapper row justify-content-center'>
                         <div className='project__image__box' onClick={popupboxJoeCoffee}>
-                            <h5 className='text-center mb-3'>Regular Joe Coffee</h5>
+                            <h5 className='text-center mb-3'>Google UI Clone</h5>
                             <img className='project__image' src={Amazon} alt=''/>
                             <div className='overflow'></div>
                             <FontAwesomeIcon className='project__icon' icon={faSearchPlus} />
                         </div>
                     {/* - */}
                         <div className='project__image__box' onClick={popupboxGmail}>
-                            <h5 className='text-center mb-3'>Gmail Clone</h5>
+                            <h5 className='text-center mb-3'>GitHub Profile Finder</h5>
                             <img className='project__image' src={Netflix} alt=''/>
                             <div className='overflow'></div>
                             <FontAwesomeIcon className='project__icon' icon={faSearchPlus} />
                         </div>
                     {/* - */}
                         <div className='project__image__box' onClick={popupboxWebShop}>
-                            <h5 className='text-center mb-3'>Web Shop</h5>
+                            <h5 className='text-center mb-3'>Meal Finder</h5>
                             <img className='project__image' src={GitHub} alt='Web Shop E-Commerce'/>
                             <div className='overflow'></div>
                             <FontAwesomeIcon className='project__icon' icon={faSearchPlus} />
                         </div>
                     {/* - */}
                         <div className='project__image__box' onClick={popupboxInsta}>
-                            <h5 className='text-center mb-3'>Instagram Clone</h5>
+                            <h5 className='text-center mb-3'>Slack Clone</h5>
                             <img className='project__image' src={MealFinder} alt=''/>
                             <div className='overflow'></div>
                             <FontAwesomeIcon className='project__icon' icon={faSearchPlus} />
@@ -324,7 +326,11 @@ const Projects = () => {
                 </div>
             </div>
         </div>
+        <div>
+        <MiniProjects />
+        <Contact />
         <Footer />
+        </div>
         </>
     )
 }

@@ -35,9 +35,10 @@ const Contact = () => {
   }
 
   return (
+    <>
     <div id='contact' className="contact">
       <div className="text-center">
-        <h2 className='text-uppercase text-center pt-2 pb-3'>contact me</h2>
+        <h2 className='text-uppercase text-center mt-5 pb-3'>contact me</h2>
         <p>Please fill out the form and describe your project needs.<br/> I'll contact you as soon as possible! Thank you!</p>
         <span className="success__message">{successMessage}</span>
       </div>
@@ -149,8 +150,9 @@ const Contact = () => {
           </div>
         </form>
       </div>
+      
     </div>
-    
+    </>
   )
   
 }
