@@ -279,13 +279,8 @@ const Projects = () => {
                             <div className='overflow'></div>
                             <FontAwesomeIcon className='project__icon' icon={faSearchPlus} />
                         </div>
-                    {/* - */}
-                    <div className='project__image__box' onClick={popupboxGoogleClone}>
-                            <h5 className='text-center mb-3'>Google UI Clone</h5>
-                            <img className='project__image' src={Google} alt=''/>
-                            <div className='overflow'></div>
-                            <FontAwesomeIcon className='project__icon' icon={faSearchPlus} />
-                        </div>
+                    
+                    
                 </div>
             </div>
             <PopupboxContainer {...popupboxConfigWhatsapp} />
@@ -294,16 +289,24 @@ const Projects = () => {
             <PopupboxContainer {...popupboxConfigMealFinder} />
             <div className='container mt-3'>
                     <div className='image__box__wrapper row justify-content-center'>
-                    <div className='project__image__box' onClick={popupboxWebShop}>
+
+                    {/* <div className='project__image__box' onClick={popupboxWebShop}>
                             <h5 className='text-center mb-3'>TDB</h5>
                             <img className='project__image' src={GitHub} alt='Web Shop E-Commerce'/>
                             <div className='overflow'></div>
                             <FontAwesomeIcon className='project__icon' icon={faSearchPlus} />
                         </div>
-                    {/* - */}
+                        
+                    {/*
                         <div className='project__image__box' onClick={popupboxGmail}>
                             <h5 className='text-center mb-3'>TBD</h5>
                             <img className='project__image' src={Hulu} alt=''/>
+                            <div className='overflow'></div>
+                            <FontAwesomeIcon className='project__icon' icon={faSearchPlus} />
+                        </div> */}
+                        <div className='project__image__box' onClick={popupboxGoogleClone}>
+                            <h5 className='text-center mb-3'>Google UI Clone</h5>
+                            <img className='project__image' src={Google} alt=''/>
                             <div className='overflow'></div>
                             <FontAwesomeIcon className='project__icon' icon={faSearchPlus} />
                         </div>
