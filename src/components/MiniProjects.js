@@ -21,6 +21,18 @@ function MiniProjects() {
             </div>
             <hr className='break' />
             <div className='pt-3'>
+                <h5>Personal Site, version 2</h5>
+                <p>My second personal web page! This is my final project for the Front End Web Developer Techdegree through Treehouse. What a journey it has been! Made with HTML, CSS, Bootstrap.</p>
+                <a className='hyper__link'href="https://blakeacollins.github.io/portfolio/">Demo</a>
+            </div>
+            <hr className='break' />
+            <div className='pt-3'>
+                <h5>Personal Site, version 1</h5>
+                <p>My first personal web page! This is my first project in the Front End Web Developer Techdegree by Treehouse. Made with HTML and CSS.</p>
+                <a className='hyper__link'href="https://blakeacollins.github.io/PersonalWebPage/">Demo</a>
+            </div>
+            <hr className='break' />
+            <div className='pt-3'>
                 <h5>Brick Breaker</h5>
                 <p>A classic game where you control a paddle with the arrow keys to bounce a ball up to break bricks. This app uses the HTML5 canvas element and API</p>
                 <a className='hyper__link'href="https://blakeacollins.github.io/breakOut/">Demo</a>
