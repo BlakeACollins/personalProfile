@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66ed4494.chunk.css",
+    "main.js": "/static/js/main.e78feda5.chunk.js",
+    "main.js.map": "/static/js/main.e78feda5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.647f0b20.js",
+    "runtime-main.js.map": "/static/js/runtime-main.647f0b20.js.map",
+    "static/css/2.a894a7ba.chunk.css": "/static/css/2.a894a7ba.chunk.css",
+    "static/js/2.99e43454.chunk.js": "/static/js/2.99e43454.chunk.js",
+    "static/js/2.99e43454.chunk.js.map": "/static/js/2.99e43454.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.a894a7ba.chunk.css.map": "/static/css/2.a894a7ba.chunk.css.map",
+    "static/css/main.66ed4494.chunk.css.map": "/static/css/main.66ed4494.chunk.css.map",
+    "static/js/2.99e43454.chunk.js.LICENSE.txt": "/static/js/2.99e43454.chunk.js.LICENSE.txt",
+    "static/media/CSS.de88f6dc.png": "/static/media/CSS.de88f6dc.png",
+    "static/media/Figma.46400ab8.png": "/static/media/Figma.46400ab8.png",
+    "static/media/Firebase.e427c3d5.png": "/static/media/Firebase.e427c3d5.png",
+    "static/media/HTML.33745ead.png": "/static/media/HTML.33745ead.png",
+    "static/media/JS.0efdef26.png": "/static/media/JS.0efdef26.png",
+    "static/media/React.73ac128a.png": "/static/media/React.73ac128a.png",
+    "static/media/Tailwind.1dbfbe21.png": "/static/media/Tailwind.1dbfbe21.png",
+    "static/media/Webflow.7052415d.svg": "/static/media/Webflow.7052415d.svg",
+    "static/media/bootstrap.98585727.svg": "/static/media/bootstrap.98585727.svg",
+    "static/media/github-project.a38a9fe2.jpg": "/static/media/github-project.a38a9fe2.jpg",
+    "static/media/google-clone.092c99c1.jpg": "/static/media/google-clone.092c99c1.jpg",
+    "static/media/hulu-clone.f3000378.jpg": "/static/media/hulu-clone.f3000378.jpg",
+    "static/media/me.f23369c4.jpg": "/static/media/me.f23369c4.jpg",
+    "static/media/meal-finder-project.c46f0276.jpg": "/static/media/meal-finder-project.c46f0276.jpg",
+    "static/media/omni-food.fdf62c14.png": "/static/media/omni-food.fdf62c14.png",
+    "static/media/redux.0e4fb1c8.svg": "/static/media/redux.0e4fb1c8.svg",
+    "static/media/whatsapp-clone.82be2f01.jpg": "/static/media/whatsapp-clone.82be2f01.jpg",
+    "static/media/header.css": "/static/media/wood-desk.6757664f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.647f0b20.js",
+    "static/css/2.a894a7ba.chunk.css",
+    "static/js/2.99e43454.chunk.js",
+    "static/css/main.66ed4494.chunk.css",
+    "static/js/main.e78feda5.chunk.js"
+  ]
+}
