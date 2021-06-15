@@ -24,7 +24,8 @@
 h1,
 h2,
 h3,
-h4{
+h4,
+h5{
   font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
 }
 p{
@@ -32,11 +33,11 @@ p{
 }
 :root{
   --sucess-green: green;
-  --green: #04f841;
-  --blue: #0368bb;
+  --green: #04e93db2;
+  --blue: #0343bb;
   --lightGrey: #f4f4f4; 
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
-  --icon-blue: #078af6;
+  --icon-blue: #072bf6;
   --error-red: red;
 }
