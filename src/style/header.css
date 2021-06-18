@@ -5,7 +5,8 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    opacity: 0.9;
+    width: 100vw;
+    opacity: 1;
   }
   .header__wraper .logo{
     position: fixed; 
