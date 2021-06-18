@@ -1,6 +1,5 @@
 import React from 'react';
 import Typed from 'react-typed';
-import Logo from '../img/logo.png'
 import '../style/header.css'
 
 
@@ -9,12 +8,9 @@ const Header = () => {
         <>
         <div id='home' className='header__wraper'>
             <h3 className='p-3'>
-                <span style={{ color: '#0368bb' }}>Blake</span> <span style={{ color: '#04f841'}}>Collins</span>
+                <span style={{ color: '#140aaa' }}>Blake</span> <span style={{ color: '#140aaa'}}>Collins</span>
             </h3>
-            {/*<img className='logo' src={Logo} alt='Evergreen Development Logo'
-            width= '150' height= '150' 
-            />*/}
-            {/*<h4>EvergreenDevelopment</h4>*/}
+            
             <div className='main__info'>
                 <h1>Web Design and Development</h1>
                 <br/>
