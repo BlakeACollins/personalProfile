@@ -6,20 +6,24 @@ import '../style/header.css'
 const Header = () => {
     return (
         <>
+        {/* NEED TO FIX CONTRAST OF MY FIRST AND LAST NAME. IT IS SCORING AT A  1.25!!! NEW COLOR, #2404f8, 3.08.
+        
+        
+        */}
         <div id='home' className='header__wraper'>
-            <h3 className='p-3'>
-                <span style={{ color: '#140aaa' }}>Blake</span> <span style={{ color: '#140aaa'}}>Collins</span>
-            </h3>
+            <h2 className='mr-3 p-3'>
+                <span style={{ color: '#fff' }}>Blake</span> <span style={{ color: '#fff'}}>Collins</span>
+            </h2>
             
             <div className='main__info'>
                 <h1>Web Design and Development</h1>
                 <br/>
                 <Typed className='typed__text'
                 strings={[
-                    "Prototyping","Web Design", "Website Builders", "Web App Development", "Mobile Web Development", "SEO Improvements", "Debugging", "Accessibility"
+                    "Wireframing","Web Design", "Website Builders", "Web App Development", "Mobile Web Development", "SEO Improvements", "Debugging", "Accessibility"
                 ]}
-                typeSpeed={38}
-                backSpeed={50}
+                typeSpeed={100}
+                backSpeed={100}
                 loop >
                 </Typed>
             </div>

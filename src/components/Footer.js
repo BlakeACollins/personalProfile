@@ -16,11 +16,7 @@ function Footer() {
                         
                     </div>
                     <div className='col-md-3 col-sm-6'>
-                    <figure>
-                            <blockquote>
-                                <h5 className='text-center p-2'>Your website should be a marketing asset, not an engineering nightmare.</h5>
-                            </blockquote>
-                        </figure>
+                        <h5 className='text-center p-2'>"Your website should be a marketing asset, not an engineering nightmare"</h5>
                     </div>
                     <div className='col-md-3 col-sm-6'>
                         <div>

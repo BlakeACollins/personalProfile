@@ -1,9 +1,9 @@
 .contact{
-    background: var(--primary-grey);
+    background: #fff;
     padding: 2.5rem;
   }
   .contact h1{
-    text-transform: uppercase;
+    color: var(--blue)
   }
   .contact p{
     color: #000;

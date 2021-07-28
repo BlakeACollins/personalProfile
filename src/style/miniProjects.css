@@ -1,0 +1,8 @@
+h3{
+    color: var(--blue);
+}
+
+.badge{
+    background-color: var(--blue);
+    padding: 10px;
+}

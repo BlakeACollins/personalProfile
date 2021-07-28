@@ -144,11 +144,6 @@ function Navbar() {
             </ItemLink>
           </li>
           <li>
-            <ItemLink onClick={handleClick} to="/experience">
-              Experience
-            </ItemLink>
-          </li>
-          <li>
             <ItemLink onClick={handleClick} to="/contact">
               Contact Me
             </ItemLink>

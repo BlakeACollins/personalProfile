@@ -41,7 +41,7 @@
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    color: var(--green);
+    color:#fff;
     
   }
   /*****REACT PARTICLES**********************/
@@ -67,10 +67,10 @@
     }
   
     .typed__text{
-      font-size: 20px;
-      font-weight: bold;
+      font-size: 1.6rem;
+      font-weight: bolder;
       text-transform: uppercase;
-      color: var(--green);
+      color: #05fb42;
     }
     .tsparticles-canvas{
       display: none !important;
