@@ -22,10 +22,10 @@ const Projects = () => {
     const popupboxWhatsapp = () => {
         const content = (
             <>
-                <img className='project__image__popup pb-3' src={Whatsapp} alt='Whatsapp Clone project'/>
+                <img className='project__image__popup pb-3' src={Whatsapp} alt='Whatsapp Clone (Coming Soon)'/>
                 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis convallis convallis tellus id. Dolor sit amet consectetur adipiscing elit.</p>
-                <b>Demo: </b><a href='https://clone-3d506.web.app/' className='hyper__link' onClick={"https://clone-3d506.web.app/"}>Whatsapp Clone</a><br />
+                <b>Demo: <p>Coming Soon</p> {/*</b><a href='https://clone-3d506.web.app/' className='hyper__link' onClick={"https://clone-3d506.web.app/"}>Whatsapp Clone</a><br />*/}
                 <b>GitHub: </b><a href="https://github.com/BlakeACollins/whatsapp-clone" className='hyper__link' onClick={"https://github.com/BlakeACollins/whatsapp-clone"}>Whatsapp Clone Project</a>
                 
             </>
@@ -35,7 +35,7 @@ const Projects = () => {
             content,
             config: {
               titleBar: {
-                text: "Whatsapp Clone with Next.js",
+                text: "Whatsapp Clone with Next.js (Coming Soon)",
               },
             },
           });
